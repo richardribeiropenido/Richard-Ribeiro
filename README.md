@@ -33,7 +33,8 @@
  
 </div>
  
-[![readme](https://github-readme-stats.vercel.app/api/pin/?username=richardribeiropenido&repo=richardribeiropenido&theme=chartreuse-dark)](https://github.com/richardribeiropenido/richardribeiropenido)
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/103716380/169720189-65a9e57a-650d-499d-936e-f6746b64f81f.gif)
+
+
+
 
 
