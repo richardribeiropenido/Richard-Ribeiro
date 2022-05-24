@@ -30,9 +30,8 @@
     
   ![Snake animation](https://github.com/richardribeiropenido/richardribeiropenido/blob/output/github-contribution-grid-snake.svg)
   <br>!
-  ![Code typing ](https://user-images.githubusercontent.com/103716380/170140110-40cc7966-7700-443a-a624-145d1fe38c84.gif)
+  ![Code typing ](https://user-images.githubusercontent.com/103716380/170140871-4b19d51c-585d-4b77-8792-eb477d708767.gif)
 
-  
 
 </div>
  
