@@ -29,7 +29,11 @@
   <a href="https://www.instagram.com/richardribeiropenido/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
     
   ![Snake animation](https://github.com/richardribeiropenido/richardribeiropenido/blob/output/github-contribution-grid-snake.svg)
+  <br>!
+  ![Code typing ](https://user-images.githubusercontent.com/103716380/170140110-40cc7966-7700-443a-a624-145d1fe38c84.gif)
+
   
+
 </div>
  
 
