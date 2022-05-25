@@ -1,4 +1,4 @@
-<b>Olá, eu sou Richard Ribeiro</b></br>
+# Olá, eu sou Richard Ribeiro
 
 <b>📚 Estudante de Tecnologia em Análise e Desenvolvimento de Sistemas</b><br>
 <b>💻 Estudando Python</b></br>
