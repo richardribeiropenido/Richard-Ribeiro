@@ -29,8 +29,10 @@
   <a href="https://www.instagram.com/richardribeiropenido/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
     
   ![Snake animation](https://github.com/richardribeiropenido/richardribeiropenido/blob/output/github-contribution-grid-snake.svg)
-  <br>!
-  ![Code typing ](https://user-images.githubusercontent.com/103716380/170140871-4b19d51c-585d-4b77-8792-eb477d708767.gif)
+  <br>
+  ![Developer activity](https://user-images.githubusercontent.com/103716380/170804739-af3a7557-f8c9-400c-93c5-73239bd6d14b.gif)
+
+  
 
 
 </div>
