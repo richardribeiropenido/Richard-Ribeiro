@@ -1,24 +1,22 @@
-from fastapi import FastAPI
+import PySimpleGUI as sg
+from cotacao import pegar_cotacoes
 
-app = FastAPI()
+layout = [
+    [sg.Text("Pegar Cotação da Moeda")],
+    [sg.InputText(key="nome_cotacao")],
+    [sg.Button("Pegar Cotação"), sg.Button("Cancelar")],
+    [sg.Text("", key="texto_cotacao")],
+]
 
-vendas = {
-    1: {"Item": "lata", "preço_unitario": 4, "quantidade": 5},
-    2: {"Item": "garrafa 2L", "preço_unitario": 15, "quantidade": 5},
-    3: {"Item": "garrafa 750ml", "preço_unitario": 10, "quantidade": 5},
-    4: {"Item": "lata mini", "preço_unitario": 2, "quantidade": 5},
-}
+janela = sg.Window("Sistema de Cotações", layout)
 
+while True:
+    evento, valores = janela.read()
+    if evento == sg.WIN_CLOSED or evento == "Cancelar":
+        break
+    if evento == "Pegar Cotação":
+        codigo_cotacao = valores["nome_cotacao"]
+        cotacao = pegar_cotacoes(codigo_cotacao)
+        janela["texto_cotacao"].update(f"A cotação do {codigo_cotacao} é de R$ {cotacao}")
 
-@app.get("/")
-def home():
-    return {"Vendas": len(vendas)}
-
-
-@app.get("/vendas/{id_venda}")
-def pegar_venda(id_venda: int):
-    return vendas[id_venda]
-    if id_venda in venda:
-        return vendas[id_venda]
-    else:
-        return {"Erro": "ID Venda inexistente"}
+janela.close()
